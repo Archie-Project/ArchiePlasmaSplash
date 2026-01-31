@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Archie - Kubuntu
+Name[es]=Archie - Kubuntu
+Comment=A splash screen featuring Archie
+Comment[es]=Una pantalla de inicio con Archie
+X-KDE-PluginInfo-Name=org.gearfox98.ArchieKubuntu
+X-KDE-PluginInfo-Author=GearFox98
+X-KDE-PluginInfo-Email=gearfox98@gmail.com
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=https://github.com/Archie-Project
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-License=MIT
+X-KDE-PluginInfo-EnabledByDefault=true
+
+# Esto es CRUCIAL: define que este paquete contiene un tema de Splash
+X-KDE-PlasmaLookAndFeel-Splash=Default

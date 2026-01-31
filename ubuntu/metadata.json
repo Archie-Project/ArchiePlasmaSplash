@@ -1,0 +1,11 @@
+{
+  "KPackageStructure": "Plasma/LookAndFeel",
+  "KPlugin": {
+    "Id": "org.gearfox98.ArchieUbuntu",
+    "Name": "Archie - Ubuntu",
+    "Version": "1.0",
+    "Authors": [{"Name": "GearFox98", "Email": "gearfox98@gmail.com"}],
+    "Website": "https://github.com/Archie-Project",
+    "License": "MIT"
+  }
+}
