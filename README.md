@@ -1,4 +1,8 @@
 # Archie's Plasma Splash Screens!
+<p align="center">
+  <img src="https://github.com/Archie-Project/ArchiePlasmaSplash/blob/main/arch/contents/previews/preview.png">
+</p>
+
 Splashes for distros.
 
 You can either clone this repository and build them using the `build.py` script or you can check the already built on [Releases](https://github.com/Archie-Project/ArchiePlasmaSplash/releases).
