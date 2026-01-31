@@ -1,5 +1,4 @@
-import QtQuick
-import org.kde.kirigami 2 as Kirigami
+import QtQuick 2.15
 
 Item {
     id: root
