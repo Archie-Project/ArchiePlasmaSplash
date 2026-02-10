@@ -45,7 +45,7 @@ while True:
                 if os.path.exists(f"build/{name}"):
                     print(f"Error: build/{name} already exists")
                     break
-                shutil.copytree("ubuntu", f"build/{name}")
+                shutil.copytree("archie", f"build/{name}")
         shutil.copytree("base", f"build/{name}", dirs_exist_ok=True)
     break
 print("Done")
