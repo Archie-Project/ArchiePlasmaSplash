@@ -80,7 +80,7 @@ Item {
                         top: parent.top
                         bottom: parent.bottom
                     }
-                    width: (parent.width / 6) * (root.stage - 1)
+                    width: (parent.width / 6) * (root.stage)
                     color: '#dddddd'
                     Behavior on width { 
                         PropertyAnimation {
