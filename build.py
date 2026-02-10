@@ -6,12 +6,13 @@ print("These are the currently available themes:")
 print('''    1 - Archlinux
     2 - Debian
     3 - Kubuntu
-    4 - Ubuntu''')
+    4 - Ubuntu
+    5 - Archie''')
 while True:
-    selection = input("Please select a number from above [1-4]: ")
+    selection = input("Please select a number from above [1-5]: ")
     if not selection.isdecimal():
         print("Error, try again")
-    elif int(selection) >= 1 and int(selection) <= 4:
+    elif int(selection) >= 1 and int(selection) <= 5:
         if not os.path.exists("build"): os.mkdir("build")
         name: str = ""
         match int(selection):
@@ -35,6 +36,12 @@ while True:
                 shutil.copytree("kubuntu", f"build/{name}")
             case 4:
                 name = "org.gearfox98.ArchieUbuntu"
+                if os.path.exists(f"build/{name}"):
+                    print(f"Error: build/{name} already exists")
+                    break
+                shutil.copytree("ubuntu", f"build/{name}")
+            case 5:
+                name = "org.gearfox98.Archie"
                 if os.path.exists(f"build/{name}"):
                     print(f"Error: build/{name} already exists")
                     break
