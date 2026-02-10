@@ -1,6 +1,6 @@
 # Archie's Plasma Splash Screens!
 <p align="center">
-  <img src="https://github.com/Archie-Project/ArchiePlasmaSplash/blob/main/arch/contents/previews/preview.png">
+  <img src="https://github.com/Archie-Project/ArchiePlasmaSplash/blob/main/archie/contents/previews/preview.png">
 </p>
 
 Splashes for distros.
